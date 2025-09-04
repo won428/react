@@ -20,11 +20,16 @@ import AppSpreadOperator from './../components/ch02.es6_syntax/spread_operator';
 import AppClassComponent from './../components/ch03.component/components01';
 import AppFunctionComponent from './../components/ch03.component/components02';
 import AppComponentSeparate from './../components/ch03.component/component_separate';
+import AppFileSeparator from '../components/ch03.component/file_separator';
+import AppUserProps from '../components/ch03.component/use_props';
+import AppMakeTable01 from '../components/ch03.component/array_and_table01';
+
 
 function AppRoutes(){
     return(
         // element 속성에는 컴포넌트 자체가 아니라 JSX 요소를 넣어야합니다.
        <Routes>
+        <Route path = '/' element = {<AppLetConst/>}/>
         <Route path = '/let_const' element = {<AppLetConst/>}/>
         <Route path = '/template_string' element = {<AppTemplateString/>}/>
         <Route path = '/make_subject_list' element = {<AppSubjectList/>}/>
@@ -35,6 +40,9 @@ function AppRoutes(){
         <Route path = '/components01' element = {<AppClassComponent/>}/>
         <Route path = '/components02' element = {<AppFunctionComponent/>}/>
         <Route path = '/component_separate' element = {<AppComponentSeparate/>}/>
+        <Route path = '/file_separator' element = {<AppFileSeparator/>}/>
+        <Route path = '/use_props' element = {<AppUserProps/>}/>
+        <Route path = '/array_and_table01' element = {<AppMakeTable01/>}/>
         
        </Routes>
     );

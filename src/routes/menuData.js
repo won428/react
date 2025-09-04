@@ -20,6 +20,9 @@ export const menuData = [
             {path : '/components01', lable : '클래스형 컴포넌트'},
             {path : '/components02', lable : '함수형 컴포넌트'},
             {path : '/component_separate', lable : '컴포넌트별 분리하기'},
+            {path : '/file_separator', lable : '파일 분리하기'},
+            {path : '/use_props', lable : 'props 사용'},
+            {path : '/array_and_table01', lable : '테이블 만들기 01'},
             
         ]
     },

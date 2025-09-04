@@ -12,8 +12,8 @@ function Content(){
         <nav>
             <ul>
                 <li><a href="http://www.naver.com">네이버</a></li>
-                <li><a href="htpp://www.daum.net">다음</a></li>
-                <li><a href="htpp://www.google.com">구글</a></li>
+                <li><a href="http://www.daum.net">다음</a></li>
+                <li><a href="http://www.google.com">구글</a></li>
             </ul>
         </nav>
     );

@@ -23,6 +23,7 @@ export const menuData = [
             {path : '/file_separator', lable : '파일 분리하기'},
             {path : '/use_props', lable : 'props 사용'},
             {path : '/array_and_table01', lable : '테이블 만들기 01'},
+            {path : '/array_and_table02', lable : '테이블 만들기 02'},
             
         ]
     },

@@ -23,6 +23,7 @@ import AppComponentSeparate from './../components/ch03.component/component_separ
 import AppFileSeparator from '../components/ch03.component/file_separator';
 import AppUserProps from '../components/ch03.component/use_props';
 import AppMakeTable01 from '../components/ch03.component/array_and_table01';
+import AppMakeTable02 from '../components/ch03.component/array_and_table02';
 
 
 function AppRoutes(){
@@ -43,6 +44,7 @@ function AppRoutes(){
         <Route path = '/file_separator' element = {<AppFileSeparator/>}/>
         <Route path = '/use_props' element = {<AppUserProps/>}/>
         <Route path = '/array_and_table01' element = {<AppMakeTable01/>}/>
+        <Route path = '/array_and_table02' element = {<AppMakeTable02/>}/>
         
        </Routes>
     );

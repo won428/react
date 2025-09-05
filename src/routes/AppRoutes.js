@@ -5,7 +5,7 @@ import {Routes, Route} from 'react-router-dom';
 
 
 // ./ 은 현재폴더 , ../ 은 상위폴더 (.../은 없음 , ../을 ../../ 식으로 이어붙여서 계속 상위폴더로 타고올라감)
-//ch02 장
+//ch02장
 // import 앱이름(임의로 설정한 이름) from '전체경로/파일명'
 import AppLetConst from './../components/ch02.es6_syntax/let_const';
 import AppTemplateString from './../components/ch02.es6_syntax/template_string';
@@ -25,6 +25,13 @@ import AppUserProps from '../components/ch03.component/use_props';
 import AppMakeTable01 from '../components/ch03.component/array_and_table01';
 import AppMakeTable02 from '../components/ch03.component/array_and_table02';
 
+//ch04장
+import AppClickEvent from '../components/ch04.event_handling/click_event';
+import AppChangeEvent from '../components/ch04.event_handling/change_event';
+import AppMouseEvent from '../components/ch04.event_handling/mouse_event';
+import AppKeyEvent from '../components/ch04.event_handling/key_event';
+import AppComboEvent from '../components/ch04.event_handling/combo_change';
+
 
 function AppRoutes(){
     return(
@@ -38,6 +45,7 @@ function AppRoutes(){
         <Route path = '/arrow_function' element = {<AppArrowFunction/>}/>
         <Route path = '/array_map' element = {<AppArrayMap/>}/>
         <Route path = '/spread_operator' element = {<AppSpreadOperator/>}/>
+
         <Route path = '/components01' element = {<AppClassComponent/>}/>
         <Route path = '/components02' element = {<AppFunctionComponent/>}/>
         <Route path = '/component_separate' element = {<AppComponentSeparate/>}/>
@@ -45,6 +53,12 @@ function AppRoutes(){
         <Route path = '/use_props' element = {<AppUserProps/>}/>
         <Route path = '/array_and_table01' element = {<AppMakeTable01/>}/>
         <Route path = '/array_and_table02' element = {<AppMakeTable02/>}/>
+        
+        <Route path = '/click_event' element = {<AppClickEvent/>}/>
+        <Route path = '/change_event' element = {<AppChangeEvent/>}/>
+        <Route path = '/mouse_event' element = {<AppMouseEvent/>}/>
+        <Route path = '/key_event' element = {<AppKeyEvent/>}/>
+        <Route path = '/combo_change' element = {<AppComboEvent/>}/>
         
        </Routes>
     );

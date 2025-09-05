@@ -25,7 +25,19 @@ export const menuData = [
             {path : '/array_and_table01', lable : '테이블 만들기 01'},
             {path : '/array_and_table02', lable : '테이블 만들기 02'},
             
+            
         ]
     },
+    {
+        chapter : "ch04.Event",
+        items : [
+        {path : '/click_event', lable : '클릭 이벤트'},
+        {path : '/change_event', lable : '체인지 이벤트'},
+        {path : '/mouse_event', lable : '마우스 이벤트'},
+        {path : '/key_event', lable : '키 이벤트'},
+        {path : '/combo_change', lable : '콤보 문제'},
+
+        ]
+    }
     //여기에 4장, 5장 등등...추가되는 내용을 계속 계속 추가하면 됩니다.
 ];

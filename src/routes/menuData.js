@@ -31,27 +31,34 @@ export const menuData = [
     {
         chapter : "ch04.Event",
         items : [
-        {path : '/click_event', lable : '클릭 이벤트'},
-        {path : '/change_event', lable : '체인지 이벤트'},
-        {path : '/mouse_event', lable : '마우스 이벤트'},
-        {path : '/key_event', lable : '키 이벤트'},
-        {path : '/combo_change', lable : '콤보 문제'},
-        {path : '/submit_event', lable : '전송 이벤트'},
+            {path : '/click_event', lable : '클릭 이벤트'},
+            {path : '/change_event', lable : '체인지 이벤트'},
+            {path : '/mouse_event', lable : '마우스 이벤트'},
+            {path : '/key_event', lable : '키 이벤트'},
+            {path : '/combo_change', lable : '콤보 문제'},
+            {path : '/submit_event', lable : '전송 이벤트'},
 
         ]
     },
     {
         chapter : "ch05.Hooks",
         items : [
-        {path : '/use_state_01', lable : '스테이트 실습 01'},
-        {path : '/use_state_02', lable : '스테이트 실습 02'},
-        {path : '/use_state_03', lable : '스테이트 실습 03'},
-        {path : '/use_state_04', lable : '스테이트 실습 04'},
-        {path : '/use_effect_01', lable : '유저 이펙트 01'},
-        {path : '/use_effect_02', lable : '유저 이펙트 02'},
-        {path : '/use_effect_03', lable : '유저 이펙트 03'},
+            {path : '/use_state_01', lable : '스테이트 실습 01'},
+            {path : '/use_state_02', lable : '스테이트 실습 02'},
+            {path : '/use_state_03', lable : '스테이트 실습 03'},
+            {path : '/use_state_04', lable : '스테이트 실습 04'},
+            {path : '/use_effect_01', lable : '유저 이펙트 01'},
+            {path : '/use_effect_02', lable : '유저 이펙트 02'},
+            {path : '/use_effect_03', lable : '유저 이펙트 03'},
 
 
+        ]
+    },
+    {
+        chapter: "ch06. IT Cafe",
+        items: [
+            {path : '/coffee_bread_01', lable : 'IT Cafe 01'},
+            {path : '/coffee_bread_02', lable : 'IT Cafe 02'},
         ]
     }
     //여기에 4장, 5장 등등...추가되는 내용을 계속 계속 추가하면 됩니다.

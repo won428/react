@@ -15,6 +15,7 @@ import AppMakeFunction from './../components/ch02.es6_syntax/make_function';
 import AppArrowFunction from './../components/ch02.es6_syntax/arrow_function';
 import AppArrayMap from './../components/ch02.es6_syntax/array_map';
 import AppSpreadOperator from './../components/ch02.es6_syntax/spread_operator';
+import AppPractice from './../components/practice/sample';
 
 //ch03장
 import AppClassComponent from './../components/ch03.component/components01';
@@ -47,6 +48,9 @@ import AppCafe01 from '../components/ch06.bootstrap/coffee_bread_01/main';
 import AppCafe02 from '../components/ch06.bootstrap/coffee_bread_02/main';
 import AppCafe03 from '../components/ch06.bootstrap/coffee_bread_03/main';
 import AppCafe04 from '../components/ch06.bootstrap/coffee_bread_04/main';
+import AppCafe05 from '../components/ch06.bootstrap/coffee_bread_05/main';
+import AppCafe06 from '../components/ch06.bootstrap/coffee_bread_06/main';
+import AppCafe07 from '../components/ch06.bootstrap/coffee_bread_07/main';
 
 
 function AppRoutes(){
@@ -61,6 +65,7 @@ function AppRoutes(){
         <Route path = '/arrow_function' element = {<AppArrowFunction/>}/>
         <Route path = '/array_map' element = {<AppArrayMap/>}/>
         <Route path = '/spread_operator' element = {<AppSpreadOperator/>}/>
+        <Route path = '/practice' element = {<AppPractice/>}/>
 
         <Route path = '/components01' element = {<AppClassComponent/>}/>
         <Route path = '/components02' element = {<AppFunctionComponent/>}/>
@@ -91,6 +96,9 @@ function AppRoutes(){
         <Route path = '/coffee_bread_02' element = {<AppCafe02/>}/>
         <Route path = '/coffee_bread_03' element = {<AppCafe03/>}/>
         <Route path = '/coffee_bread_04' element = {<AppCafe04/>}/>
+        <Route path = '/coffee_bread_05' element = {<AppCafe05/>}/>
+        <Route path = '/coffee_bread_06' element = {<AppCafe06/>}/>
+        <Route path = '/coffee_bread_07' element = {<AppCafe07/>}/>
         
        </Routes>
     );

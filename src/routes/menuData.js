@@ -11,6 +11,7 @@ export const menuData = [
             {path : '/arrow_function', lable : '화살표 함수'},
             {path : '/array_map', lable : '배열 함수'},
             {path : '/spread_operator', lable : '전개 연산자'},
+            {path : '/practice', lable : '연습용'},
             
         ]
     },
@@ -61,6 +62,9 @@ export const menuData = [
             {path : '/coffee_bread_02', lable : 'IT Cafe 02'},
             {path : '/coffee_bread_03', lable : 'IT Cafe 03'},
             {path : '/coffee_bread_04', lable : 'IT Cafe 04'},
+            {path : '/coffee_bread_05', lable : 'IT Cafe 05'},
+            {path : '/coffee_bread_06', lable : 'IT Cafe 06'},
+            {path : '/coffee_bread_07', lable : 'IT Cafe 07'},
         ]
     }
     //여기에 4장, 5장 등등...추가되는 내용을 계속 계속 추가하면 됩니다.

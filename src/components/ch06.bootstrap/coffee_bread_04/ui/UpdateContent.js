@@ -31,12 +31,11 @@ function App({product, onSubmitUpdate}){
         const {name, value} = event.target;
         console.log(`파라미터 이름 : ${name},새로운 값 : ${value}`);
         /* 전개 연산자를 사용하여 과거 데이터를 보존하되, 신규 바뀐 정보만 다시 갱신하기 */
-        setFormData((previous)=>({...previous, [name]: value}));
-
+        setFormData((previous)=>({...previous, [name]: value})); 
+        
     }
-    
-    
 
+    
     return(
         <div>
             <h2>상품 {comment}</h2>
@@ -44,7 +43,7 @@ function App({product, onSubmitUpdate}){
                 <InputGroup className="custom-input-group">
                     <InputGroup.Text className ="input-group-text">아이디</InputGroup.Text>
                     <input name = "id" type = "hidden" onChange={InputChange} value={product.id}/>
-                    <Form.Control type="text" name ="fakeid" value={product.id} disabled></Form.Control>
+                    <Form.Control type="text" name ="fakeid" value={product.id} disabled></Form.Control> 
                 </InputGroup>
                 <InputGroup className="custom-input-group">
                     <InputGroup.Text className ="input-group-text">이름</InputGroup.Text>

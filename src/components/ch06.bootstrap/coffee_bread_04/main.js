@@ -20,6 +20,7 @@ function App(){
       {id:3, name:"아메리카노", price:3000, category:'beverage', stock:333, image:'americano01.png', description:"에스프레소의 쓴 맛과 향을 좋아하는 사람들이 물을 추가해서 즐기는 음료로, 물과 에스프레소의 비율에 따라서 쓴 맛과 진하게 즐길 수 있습니다."},
       {id:4, name:"카푸치노", price:4000, category:'beverage', stock:444, image:'cappuccino01.png', description:"스팀밀크와 거품을 올린 것을 섞어 만든 이탈리아의 전통적인 커피 음료입니다."}
    ]);
+  
  
    /* 현재 상태의 모드 지정 */
    /*  insert, update, delete, read, detail 등등 */
@@ -83,7 +84,7 @@ function App(){
             category: formData.category.value,
             stock: Number(formData.stock.value),
             image: formData.image.value,
-            description: formData.description.value}];
+            description: formData.description.value}]; 
        
         /* concat() 함수를 사용하여 이전 상품 목록과 신규 품목을 합쳐줍니다. */
         const newProduct = products.concat(newData);
@@ -96,6 +97,7 @@ function App(){
     /* 사용자가 상품 수정 화면에서 내용을 수정하고, [수정 버튼을 눌렀습니다.] */
     const UpdateData = (formData) => {
         
+
     }
 
 

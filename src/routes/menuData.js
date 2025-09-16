@@ -1,6 +1,21 @@
 // 메뉴 목록을 만들어주는 페이지
 // export 키워드는 외부에서 참조 가능하도록 길을 틔워줌
 export const menuData = [
+     {
+        chapter : "ch01. Basic",
+        items: [
+            { path: '/make_array_01', lable: '배열 실습 01' },
+            { path: '/math_object_01', lable: 'Math 객체 실습 01' },
+            { path: '/if_exercise', lable: 'If 구문 실습' },
+            { path: '/switch_exercise', lable: 'Switch 구문 실습' },
+            { path: '/typeof_number', lable: 'Typeof와 Number 실습' },
+            { path: '/form_exam', lable: 'Form 양식 실습' },
+            { path: '/list_exam', lable: '목록(ol, ul) 실슬' },
+            { path: '/table_exam', lable: '테이블 실습' },
+        ]
+        
+
+    },
     {
         chapter : "ch02.ECMAScript",
         items : [

@@ -226,6 +226,12 @@ function App() {
         // 필터링이 이루어 지면, 정렬 함수를 다시 실행시켜 화면을 갱신시킵니다.
         Ordering(orderInfo);
     };
+
+    // 필드 검색을 사용하여 필터링을 수행할지 말지를 결정하는 bool 타입의 변수
+    const isFilteringNeeded = filterCategory && filterCategory !== 'all';
+
+    // 삼항 연산자를 사용하여 선택된 카테고리와 동일한 폼목들만 필터링합니다.
+    const filteredProducts = isFilteringNeeded ? products.filter((item) => item.category === filterCategory) : products ;
     
 
 
@@ -238,7 +244,7 @@ function App() {
             <Card.Body>
                 {/* onClickToContent 프롭스가 리턴되고 난 후 ClickArrived 함수가 동작되도록 하기 */}
                 <Content 
-                Contents={products} 
+                Contents={filteredProducts} 
                 onClickToContent={ClickArrived}
                 categories={categories}
                 onOrderbyClick={ClickOrderby}
